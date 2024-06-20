@@ -1,0 +1,52 @@
+{
+    "enemies": [
+        {
+            "name": "Goblin",
+            "attributes": {
+                "B": 3,
+                "A": 4,
+                "R": 2,
+                "S": 2,
+                "W": 1,
+                "L": 1,
+                "I": 2,
+                "C": 1,
+                "M-R": 0,
+                "ESS": 6,
+                "DR": 4,
+                "I/ID": "2/1D6",
+                "AC": "1A/2I",
+                "CM": 10,
+                "Move": "10m/20m"
+            },
+            "abilities": ["Dark Vision", "Stealth"],
+            "description": "A small, green humanoid with a mischievous nature."
+        }
+        // More enemies
+    ],
+    "npcs": [
+        {
+            "name": "Village Elder",
+            "attributes": {
+                "B": 2,
+                "A": 2,
+                "R": 2,
+                "S": 1,
+                "W": 5,
+                "L": 4,
+                "I": 3,
+                "C": 4,
+                "M-R": 0,
+                "ESS": 6,
+                "DR": 3,
+                "I/ID": "3/2D6",
+                "AC": "1A/2I",
+                "CM": 12,
+                "Move": "6m/12m"
+            },
+            "abilities": ["Wisdom", "Leadership"],
+            "description": "An elderly person with a wealth of knowledge about the village and its history."
+        }
+        // More NPCs
+    ]
+}

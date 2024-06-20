@@ -1,0 +1,1418 @@
+{
+    "mobs": {
+        "minions": [
+            {
+                "name": "Humanis Goon",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["policlubs.humanis"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Humanis Goon, a low-level thug affiliated with the Humanis group."
+            },
+            {
+                "name": "Humanis Thug",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["policlubs.humanis"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Humanis Thug, a stronger and more experienced member of the Humanis group."
+            },
+            {
+                "name": "Ragers Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.ragers"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "dwarf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Ragers Recruit, a low-level member of The Raaageerrrrs! gang."
+            },
+            {
+                "name": "Ragers Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.ragers"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "dwarf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Ragers Prospect, a stronger and more experienced member of The Raaageerrrrs! gang."
+            },
+            {
+                "name": "Stilettos Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.stilettos"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "ork",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Stilettos Recruit, a low-level member of the Rusted Stilettos! gang."
+            },
+            {
+                "name": "Stilettos Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.stilettos"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "ork",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Stilettos Prospect, a stronger and more experienced member of the Rusted Stilettos! gang."
+            },
+            {
+                "name": "Ancients Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.ancients"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "elf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ancients Recruit, a low-level member of The Ancients gang."
+            },
+            {
+                "name": "Ancients Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.ancients"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "elf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ancients Prospect, a stronger and more experienced member of The Ancients gang."
+            },
+            {
+                "name": "Spikes Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.spikes"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "troll",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Spikes Recruit, a low-level member of the Spikes gang."
+            },
+            {
+                "name": "Spikes Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.spikes"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "troll",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Spikes Prospect, a stronger and more experienced member of the Spikes gang."
+            },
+            {
+                "name": "Eye-Fivers Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.eyefiver"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Eye-Fivers Recruit, a low-level member of The Eye-Fivers gang."
+            },
+            {
+                "name": "Eye-Fivers Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.eyefiver"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Eye-Fivers Prospect, a stronger and more experienced member of The Eye-Fivers gang."
+            },
+            {
+                "name": "Halloweeners Recruit",
+                "type": "goon",
+                "PR": 0,
+                "affiliations": ["gangs.halloween"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Halloweeners Recruit, a low-level member of The Halloweeners gang."
+            },
+            {
+                "name": "Halloweeners Prospect",
+                "type": "thug",
+                "PR": 1,
+                "affiliations": ["gangs.halloween"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Halloweeners Prospect, a stronger and more experienced member of The Halloweeners gang."
+            },
+            {
+                "name": "Knight Errant Cadet",
+                "type": "goon",
+                "PR": 1,
+                "affiliations": ["corporations.knighterrant"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Knight Errant Cadet, a low-level member of Knight Errant Security."
+            },
+            {
+                "name": "Knight Errant Rookie",
+                "type": "thug",
+                "PR": 3,
+                "affiliations": ["corporations.knighterrant"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Knight Errant Rookie, a stronger and more experienced member of Knight Errant Security."
+            },
+            {
+                "name": "Ares Associate",
+                "type": "goon",
+                "PR": 1,
+                "affiliations": ["corporations.ares"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ares Associate, a low-level member of Ares Corporation."
+            },
+            {
+                "name": "Ares Assistant",
+                "type": "thug",
+                "PR": 3,
+                "affiliations": ["corporations.ares"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ares Assistant, a stronger and more experienced member of Ares Corporation."
+            },
+            {
+                "name": "Renraku Associate",
+                "type": "goon",
+                "PR": 1,
+                "affiliations": ["corporations.renraku"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Renraku Associate, a low-level member of Renraku Corporation."
+            },
+            {
+                "name": "Renraku Assistant",
+                "type": "thug",
+                "PR": 3,
+                "affiliations": ["corporations.renraku"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Renraku Assistant, a stronger and more experienced member of Renraku Corporation."
+            },
+            {
+                "name": "Aztechnology Associate",
+                "type": "goon",
+                "PR": 1,
+                "affiliations": ["corporations.aztech"],
+                "attributes": {
+                    "B": 2,
+                    "A": 2,
+                    "R": 2,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 6,
+                    "DR": 2,
+                    "I/ID": "4/1D6",
+                    "AC": "1A/2I",
+                    "CM": 9,
+                    "Move": "10m/15m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 1,
+                    "Close Combat": 3,
+                    "Influence": {
+                        "base": 1,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 1
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Aztechnology Associate, a low-level member of Aztechnology Corporation."
+            },
+            {
+                "name": "Aztechnology Assistant",
+                "type": "thug",
+                "PR": 3,
+                "affiliations": ["corporations.aztech"],
+                "attributes": {
+                    "B": 3,
+                    "A": 3,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 3,
+                    "I": 3,
+                    "C": 2,
+                    "ESS": 7,
+                    "DR": 3,
+                    "I/ID": "5/1D6",
+                    "AC": "1A/2I",
+                    "CM": 10,
+                    "Move": "11m/16m/+1"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 2,
+                    "Close Combat": 4,
+                    "Influence": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 3
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 2
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Aztechnology Assistant, a stronger and more experienced member of Aztechnology Corporation."
+            }
+        ],
+        "leaders": [
+            {
+                "name": "Ancients Veteran",
+                "type": "gang boss",
+                "PR": 4,
+                "affiliations": ["gangs.ancients"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "elf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ancients Veteran, a battle-hardened member of The Ancients gang."
+            },
+            {
+                "name": "Spikes Veteran",
+                "type": "gang boss",
+                "PR": 4,
+                "affiliations": ["gangs.spikes"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "troll",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Spikes Veteran, a battle-hardened member of the Spikes gang."
+            },
+            {
+                "name": "Eye-Fivers Veteran",
+                "type": "gang boss",
+                "PR": 5,
+                "affiliations": ["gangs.eyefiver"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Eye-Fivers Veteran, a battle-hardened member of The Eye-Fivers gang."
+            },
+            {
+                "name": "Halloweeners Veteran",
+                "type": "gang boss",
+                "PR": 5,
+                "affiliations": ["gangs.halloween"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Halloweeners Veteran, a battle-hardened member of The Halloweeners gang."
+            },
+            {
+                "name": "Knight Errant Officer",
+                "type": "enforcer",
+                "PR": 4,
+                "affiliations": ["corporations.knighterrant"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Knight Errant Officer, a battle-hardened member of Knight Errant Security."
+            },
+            {
+                "name": "Ares Officer",
+                "type": "enforcer",
+                "PR": 5,
+                "affiliations": ["corporations.ares"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ares Officer, a battle-hardened member of Ares Corporation."
+            },
+            {
+                "name": "Renraku Officer",
+                "type": "enforcer",
+                "PR": 5,
+                "affiliations": ["corporations.renraku"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Renraku Officer, a battle-hardened member of Renraku Corporation."
+            },
+            {
+                "name": "Aztechnology Officer",
+                "type": "enforcer",
+                "PR": 5,
+                "affiliations": ["corporations.aztech"],
+                "attributes": {
+                    "B": 4,
+                    "A": 4,
+                    "R": 4,
+                    "S": 4,
+                    "W": 4,
+                    "L": 4,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 7,
+                    "DR": 4,
+                    "I/ID": "6/1D6",
+                    "AC": "2A/3I",
+                    "CM": 11,
+                    "Move": "12m/18m/+2"
+                },
+                "race": {
+                    "metatype": "human",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 3,
+                    "Close Combat": 5,
+                    "Influence": {
+                        "base": 3,
+                        "specializations": {
+                            "Intimidation": 4
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 3
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Aztechnology Officer, a battle-hardened member of Aztechnology Corporation."
+            },
+            {
+                "name": "Ancients Lieutenant",
+                "type": "gang leader",
+                "PR": 5,
+                "affiliations": ["gangs.ancients"],
+                "attributes": {
+                    "B": 5,
+                    "A": 5,
+                    "R": 5,
+                    "S": 5,
+                    "W": 5,
+                    "L": 5,
+                    "I": 5,
+                    "C": 4,
+                    "ESS": 7,
+                    "DR": 5,
+                    "I/ID": "7/1D6",
+                    "AC": "3A/4I",
+                    "CM": 12,
+                    "Move": "13m/19m/+3"
+                },
+                "race": {
+                    "metatype": "elf",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 4,
+                    "Close Combat": 6,
+                    "Influence": {
+                        "base": 4,
+                        "specializations": {
+                            "Intimidation": 5
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 4
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "An Ancients Lieutenant, a high-ranking member of The Ancients gang."
+            },
+            {
+                "name": "Spikes Lieutenant",
+                "type": "gang leader",
+                "PR": 5,
+                "affiliations": ["gangs.spikes"],
+                "attributes": {
+                    "B": 5,
+                    "A": 5,
+                    "R": 5,
+                    "S": 5,
+                    "W": 5,
+                    "L": 5,
+                    "I": 5,
+                    "C": 4,
+                    "ESS": 7,
+                    "DR": 5,
+                    "I/ID": "7/1D6",
+                    "AC": "3A/4I",
+                    "CM": 12,
+                    "Move": "13m/19m/+3"
+                },
+                "race": {
+                    "metatype": "troll",
+                    "subvariant": "standard"
+                },
+                "skills": {
+                    "Athletics": 4,
+                    "Close Combat": 6,
+                    "Influence": {
+                        "base": 4,
+                        "specializations": {
+                            "Intimidation": 5
+                        }
+                    }
+                },
+                "gear": {
+                    "Commlink": {
+                        "Device Rating": 4
+                    }
+                },
+                "weapons": ["melee.club", "melee.knife"],
+                "abilities": [],
+                "description": "A Spikes Lieutenant, a high-ranking member of the Spikes gang."
+            }
+        ],
+        "bosses": [],
+        "uniques": []
+    }
+}

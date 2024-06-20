@@ -1,0 +1,168 @@
+{
+    "affiliations": {
+        "gangs": [
+            {
+                "id": "ragers",
+                "name": "The Raaageerrrrs!",
+                "local": "seattle",
+                "quals": "dwarf"
+            },
+                        {
+                "id": "stilettos",
+                "name": "Rusted Stilettos!",
+                "local": "seattle",
+                "quals": "ork"
+            },
+            {
+                "id": "ancients",
+                "name": "The Ancients",
+                "local": "seattle",
+                "quals": "elf"
+            },
+            {
+                "id": "spikes",
+                "name": "Spikes",
+                "local": "seattle",
+                "quals": "troll"
+            },
+            {
+                "id": "eyefiver",
+                "name": "The Eye-Fivers",
+                "local": "seattle",
+                "quals": "human"
+            },
+            {
+                "id": "halloween",
+                "name": "The Halloweeners",
+                "local": "seattle",
+                "quals": "none"
+            }
+        ],
+        "corporations": [
+            {
+                "id": "knighterrant",
+                "name": "Knight Errant Security",
+                "local": "global",
+                "quals": "law"
+            },
+            {
+                "id": "ares",
+                "name": "Ares Corporation",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "renraku",
+                "name": "Renraku",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "mitsuhama",
+                "name": "Mitsuhama Computer Technologies",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "saeder",
+                "name": "Saeder-Krupp",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "aztech",
+                "name": "Aztechnology",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "shiawase",
+                "name": "Shiawase",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "wuxing",
+                "name": "Wuxing",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "spinrad",
+                "name": "Spinrad Global",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "evo",
+                "name": "Evo",
+                "local": "global",
+                "quals": "big10"
+            },
+            {
+                "id": "horizon",
+                "name": "Horizon",
+                "local": "global",
+                "quals": "big10"
+            }
+        ],
+        "policlubs": [
+            {
+                "id": "humanis",
+                "name": "The Humanis Policlub",
+                "local": "global",
+                "quals": "human"
+            },
+            {
+                "id": "mafia",
+                "name": "The Mafia",
+                "local": "global",
+                "quals": "none"
+            },
+            {
+                "id": "yakuza",
+                "name": "Yakuza",
+                "local": "global",
+                "quals": "none"
+            }
+        ],
+        "organizations": [
+            {
+                "id": "terrafirst",
+                "name": "TerraFirst!",
+                "local": "global",
+                "quals": "none"
+            },
+            {
+                "id": "lonestar",
+                "name": "Lone Star",
+                "local": "seattle",
+                "quals": "law"
+            },
+            {
+                "id": "atlantean",
+                "name": "Atlantean Foundation",
+                "local": "global",
+                "quals": "awakened"
+            },
+            {
+                "id": "blacklodge",
+                "name": "The Black Lodge",
+                "local": "global",
+                "quals": "awakened"
+            },
+            {
+                "id": "draco",
+                "name": "The Draco Foundation",
+                "local": "global",
+                "quals": "none"
+            },
+            {
+                "id": "dunkelzahn",
+                "name": "Dunkelzahn Institute of Magical Research",
+                "local": "global",
+                "quals": "none"
+            }
+        ]
+    }
+}

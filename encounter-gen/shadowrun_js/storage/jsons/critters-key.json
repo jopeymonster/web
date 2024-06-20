@@ -1,0 +1,200 @@
+{
+    "criters": {                       // used for generation
+        "mundane": [            // PF 0-5
+            {
+                "name": "string",        // Name of the critter
+                "type": "string",        // Type or role of the critter (e.g., dog, cockatrice, western dragon)
+                "PR": "integer",         // Professional Rating (0-10)
+                "affiliations": [],      
+                "attributes": {
+                    "B": "integer",      // Body (Physical toughness)
+                    "A": "integer",      // Agility (Nimbleness and coordination)
+                    "R": "integer",      // Reaction (Reflexes and response time)
+                    "S": "integer",      // Strength (Physical power)
+                    "W": "integer",      // Willpower (Mental resilience)
+                    "L": "integer",      // Logic (Reasoning and problem-solving ability)
+                    "I": "integer",      // Intuition (Awareness and instinct)
+                    "C": "integer",      // Charisma (Social influence and appeal)
+                    "ESS": "integer",    // Essence (Life force or spirit)
+                    "DR": "integer",     // Defense Rating (Defensive capability, a collection of armor points based on all variables)
+                    "I/ID": "string",    // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string",      // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer",     // Condition Monitor (Number of health boxes)
+                    "Move": "string"     // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer",                       // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer"    // Specialization skill level
+                        }
+                    }
+                },
+                "powers": {
+                    "Name": {
+                        "Description or Details": "string"       // Details of the power
+                    }
+                },
+                "attack": [  // Can be referenced in two ways; as shown below will generate a custom weapon
+                    {    // also as 'critter.critterattack, e.g., 'critter.dogattack', 'critter.devilrat'
+                        "name": "string",                      // Name of the weapon
+                        "type": "string",                      // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string",                        // Damage Value (e.g., "3S" means 3 stun damage, "5P" = 5 physical damage)
+                        "Attack Ratings": "string"             // Attack ratings for different ranges or situations
+                    }
+                ],
+                "abilities": [
+                    "string"                                    // List of special abilities the critter has
+                ],
+                "description": "string"                         // A brief description of the critter
+            }
+        ],
+        "awakened": [            // PF 4-8
+            {
+                "name": "string", // Name of the critter
+                "type": "string", // Type or role of the critter (e.g., dog, cockatrice, western dragon)
+                "PR": "integer", // Professional Rating (0-10)
+                "affiliations": [],
+                "attributes": {
+                    "B": "integer", // Body (Physical toughness)
+                    "A": "integer", // Agility (Nimbleness and coordination)
+                    "R": "integer", // Reaction (Reflexes and response time)
+                    "S": "integer", // Strength (Physical power)
+                    "W": "integer", // Willpower (Mental resilience)
+                    "L": "integer", // Logic (Reasoning and problem-solving ability)
+                    "I": "integer", // Intuition (Awareness and instinct)
+                    "C": "integer", // Charisma (Social influence and appeal)
+                    "ESS": "integer", // Essence (Life force or spirit)
+                    "DR": "integer", // Defense Rating (Defensive capability, a collection of armor points based on all variables)
+                    "I/ID": "string", // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string", // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer", // Condition Monitor (Number of health boxes)
+                    "Move": "string" // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer", // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer" // Specialization skill level
+                        }
+                    }
+                },
+                "powers": {
+                    "Name": {
+                        "Description or Details": "string" // Details of the power
+                    }
+                },
+                "attack": [ // Can be referenced in two ways; as shown below will generate a custom weapon
+                    { // also as 'critter.critterattack, e.g., 'critter.dogattack', 'critter.devilrat'
+                        "name": "string", // Name of the weapon
+                        "type": "string", // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string", // Damage Value (e.g., "3S" means 3 stun damage, "5P" = 5 physical damage)
+                        "Attack Ratings": "string" // Attack ratings for different ranges or situations
+                    }
+                ],
+                "abilities": [
+                    "string" // List of special abilities the critter has
+                ],
+                "description": "string" // A brief description of the critter
+            }
+        ],
+        "dracoforms": [             // PF 9-10
+            {
+                "name": "string", // Name of the critter
+                "type": "string", // Type or role of the critter (e.g., dog, cockatrice, western dragon)
+                "PR": "integer", // Professional Rating (0-10)
+                "affiliations": [],
+                "attributes": {
+                    "B": "integer", // Body (Physical toughness)
+                    "A": "integer", // Agility (Nimbleness and coordination)
+                    "R": "integer", // Reaction (Reflexes and response time)
+                    "S": "integer", // Strength (Physical power)
+                    "W": "integer", // Willpower (Mental resilience)
+                    "L": "integer", // Logic (Reasoning and problem-solving ability)
+                    "I": "integer", // Intuition (Awareness and instinct)
+                    "C": "integer", // Charisma (Social influence and appeal)
+                    "ESS": "integer", // Essence (Life force or spirit)
+                    "DR": "integer", // Defense Rating (Defensive capability, a collection of armor points based on all variables)
+                    "I/ID": "string", // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string", // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer", // Condition Monitor (Number of health boxes)
+                    "Move": "string" // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer", // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer" // Specialization skill level
+                        }
+                    }
+                },
+                "powers": {
+                    "Name": {
+                        "Description or Details": "string" // Details of the power
+                    }
+                },
+                "attack": [ // Can be referenced in two ways; as shown below will generate a custom weapon
+                    { // also as 'critter.critterattack, e.g., 'critter.dogattack', 'critter.devilrat'
+                        "name": "string", // Name of the weapon
+                        "type": "string", // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string", // Damage Value (e.g., "3S" means 3 stun damage, "5P" = 5 physical damage)
+                        "Attack Ratings": "string" // Attack ratings for different ranges or situations
+                    }
+                ],
+                "abilities": [
+                    "string" // List of special abilities the critter has
+                ],
+                "description": "string" // A brief description of the critter
+            }
+        ],
+        "uniques": [             // PF 0-10
+            {
+                "name": "string", // Name of the critter
+                "type": "string", // Type or role of the critter (e.g., dog, cockatrice, western dragon)
+                "PR": "integer", // Professional Rating (0-10)
+                "affiliations": [],
+                "attributes": {
+                    "B": "integer", // Body (Physical toughness)
+                    "A": "integer", // Agility (Nimbleness and coordination)
+                    "R": "integer", // Reaction (Reflexes and response time)
+                    "S": "integer", // Strength (Physical power)
+                    "W": "integer", // Willpower (Mental resilience)
+                    "L": "integer", // Logic (Reasoning and problem-solving ability)
+                    "I": "integer", // Intuition (Awareness and instinct)
+                    "C": "integer", // Charisma (Social influence and appeal)
+                    "ESS": "integer", // Essence (Life force or spirit)
+                    "DR": "integer", // Defense Rating (Defensive capability, a collection of armor points based on all variables)
+                    "I/ID": "string", // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string", // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer", // Condition Monitor (Number of health boxes)
+                    "Move": "string" // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer", // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer" // Specialization skill level
+                        }
+                    }
+                },
+                "powers": {
+                    "Name": {
+                        "Description or Details": "string" // Details of the power
+                    }
+                },
+                "attack": [ // Can be referenced in two ways; as shown below will generate a custom weapon
+                    { // also as 'critter.critterattack, e.g., 'critter.dogattack', 'critter.devilrat'
+                        "name": "string", // Name of the weapon
+                        "type": "string", // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string", // Damage Value (e.g., "3S" means 3 stun damage, "5P" = 5 physical damage)
+                        "Attack Ratings": "string" // Attack ratings for different ranges or situations
+                    }
+                ],
+                "abilities": [
+                    "string" // List of special abilities the critter has
+                ],
+                "description": "string" // A brief description of the critter
+            }
+        ]
+    }
+}

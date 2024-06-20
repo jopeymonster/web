@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container styles */
+div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styles */
+div p {
+    margin: 0;
+}
+
+/* Class-specific styles */
+.myclass {
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+}
+
+.wifeyclass {
+    background-color: #fce4ec;
+    border-left: 5px solid #e91e63;
+}
+
+.gwynclass {
+    background-color: #fff3e0;
+    border-left: 5px solid #ff9800;
+}
+
+.griffinclass {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+}
+
+.rowanclass {
+    background-color: #f3e5f5;
+    border-left: 5px solid #9c27b0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    div {
+        padding: 15px;
+    }
+}
