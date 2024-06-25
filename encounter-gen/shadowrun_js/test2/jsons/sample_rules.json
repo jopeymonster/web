@@ -1,0 +1,9 @@
+{
+    "rules": {
+        "movement": "Details about movement rules...",
+        "combat": "Details about combat rules...",
+        "magic": "Details about magic rules...",
+        "equipment": "Details about equipment rules..."
+        // More rules sections
+    }
+}

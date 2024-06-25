@@ -1,0 +1,225 @@
+{
+    "mobs": {                       // used for generation
+        "minions": [            // PF 0-5
+            {
+                "name": "string",        // Name of the mob
+                "type": "string",        // Type or role of the mob (e.g., Goon, Shaman)
+                "PR": "integer",         // Professional Rating (0-10)
+                "affiliations": [        // A list of affiliations thta can be represented
+                    {              //  as 'affiliation_group.affiliation.id' (e.g., gang.ragers, policlub.humanis, corporation.ares)
+                        "id": "string",   // The reference name used for the affiliation
+                        "name": "string", // A descriptive name for the affiliation
+                        "local": "string", // Area of operations, default is 'global'
+                        "quals": "string"  // Necessary attributes or qualifications necessary to be part of the affiliation
+                    }
+                ],      
+                "attributes": {
+                    "B": "integer",      // Body (Physical toughness)
+                    "A": "integer",      // Agility (Nimbleness and coordination)
+                    "R": "integer",      // Reaction (Reflexes and response time)
+                    "S": "integer",      // Strength (Physical power)
+                    "W": "integer",      // Willpower (Mental resilience)
+                    "L": "integer",      // Logic (Reasoning and problem-solving ability)
+                    "I": "integer",      // Intuition (Awareness and instinct)
+                    "C": "integer",      // Charisma (Social influence and appeal)
+                    "ESS": "integer",    // Essence (Life force or spirit)
+                    "DR": "integer",     // Defense Rating (Defensive capability, a collection of armor points based on all variables)
+                    "I/ID": "string",    // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string",      // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer",     // Condition Monitor (Number of health boxes)
+                    "Move": "string"     // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "race": {
+                    "metatype": "string", // The main characters metatype
+                    "subvariant": "string" // Additional subvariant descriptions, 'standard' by default
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer",                       // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer"    // Specialization skill level
+                        }
+                    }
+                },
+                "augmentations": {
+                    "Augmentation Name": {
+                        "Description or Details": "string"       // Details of the augmentations
+                    }
+                },
+                "gear": {
+                    "Item Name": {
+                        "Description or Details": "string"       // Details of the item
+                    }
+                },
+                "weapons": [  // Weapons can be propagated from the 'weapons.json file and referenced as
+                    {         // 'weapons_type.weapons_name' e.g., ranged.pistol, augment.cyberarm, melee.knife, grenade.frag etc.
+                        "name": "string",                      // Name of the weapon
+                        "type": "string",                      // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string",                        // Damage Value (e.g., "3S" means 3 stun damage)
+                        "Attack Ratings": "string"             // Attack ratings for different ranges or situations
+                    }
+                ],
+                "spells": [
+                    "string"                                    // List of spells the mob can cast
+                ],
+                "abilities": [
+                    "string"                                    // List of special abilities the mob has
+                ],
+                "description": "string"                         // A brief description of the mob
+            }
+        ],
+        "leaders": [            // PF 4-8
+            {
+                "name": "string",        // Name of the mob
+                "type": "string",        // Type or role of the mob (e.g., Leader)
+                "PR": "integer",         // Professional Rating (0-10)
+                "attributes": {
+                    "B": "integer",      // Body (Physical toughness)
+                    "A": "integer",      // Agility (Nimbleness and coordination)
+                    "R": "integer",      // Reaction (Reflexes and response time)
+                    "S": "integer",      // Strength (Physical power)
+                    "W": "integer",      // Willpower (Mental resilience)
+                    "L": "integer",      // Logic (Reasoning and problem-solving ability)
+                    "I": "integer",      // Intuition (Awareness and instinct)
+                    "C": "integer",      // Charisma (Social influence and appeal)
+                    "ESS": "integer",    // Essence (Life force or spirit)
+                    "DR": "integer",     // Defense Rating (Defensive capability)
+                    "I/ID": "string",    // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string",      // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer",     // Condition Monitor (Number of health boxes)
+                    "Move": "string"     // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer",                       // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer"    // Specialization skill level
+                        }
+                    }
+                },
+                "gear": {
+                    "Item Name": {
+                        "Description or Details": "string"       // Details of the item
+                    }
+                },
+                "weapons": [
+                    {
+                        "name": "string",                      // Name of the weapon
+                        "type": "string",                      // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string",                        // Damage Value (e.g., "3S" means 3 stun damage)
+                        "Attack Ratings": "string"             // Attack ratings for different ranges or situations
+                    }
+                ],
+                "spells": [
+                    "string"                                    // List of spells the mob can cast
+                ],
+                "abilities": [
+                    "string"                                    // List of special abilities the mob has
+                ],
+                "description": "string"                         // A brief description of the mob
+            }
+        ],
+        "bosses": [             // PF 9-10
+            {
+                "name": "string",        // Name of the mob
+                "type": "string",        // Type or role of the mob (e.g., Boss)
+                "PR": "integer",         // Professional Rating (0-10)
+                "attributes": {
+                    "B": "integer",      // Body (Physical toughness)
+                    "A": "integer",      // Agility (Nimbleness and coordination)
+                    "R": "integer",      // Reaction (Reflexes and response time)
+                    "S": "integer",      // Strength (Physical power)
+                    "W": "integer",      // Willpower (Mental resilience)
+                    "L": "integer",      // Logic (Reasoning and problem-solving ability)
+                    "I": "integer",      // Intuition (Awareness and instinct)
+                    "C": "integer",      // Charisma (Social influence and appeal)
+                    "ESS": "integer",    // Essence (Life force or spirit)
+                    "DR": "integer",     // Defense Rating (Defensive capability)
+                    "I/ID": "string",    // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string",      // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer",     // Condition Monitor (Number of health boxes)
+                    "Move": "string"     // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer",                       // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer"    // Specialization skill level
+                        }
+                    }
+                },
+                "gear": {
+                    "Item Name": {
+                        "Description or Details": "string"       // Details of the item
+                    }
+                },
+                "weapons": [
+                    {
+                        "name": "string",                      // Name of the weapon
+                        "type": "string",                      // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string",                        // Damage Value (e.g., "3S" means 3 stun damage)
+                        "Attack Ratings": "string"             // Attack ratings for different ranges or situations
+                    }
+                ],
+                "spells": [
+                    "string"                                    // List of spells the mob can cast
+                ],
+                "abilities": [
+                    "string"                                    // List of special abilities the mob has
+                ],
+                "description": "string"                         // A brief description of the mob
+            }
+        ],
+        "uniques": [             // PF 0-10
+            {
+                "name": "string",        // Name of the mob
+                "type": "string",        // Type or role of the mob (e.g., Boss)
+                "PR": "integer",         // Professional Rating (0-10)
+                "attributes": {
+                    "B": "integer",      // Body (Physical toughness)
+                    "A": "integer",      // Agility (Nimbleness and coordination)
+                    "R": "integer",      // Reaction (Reflexes and response time)
+                    "S": "integer",      // Strength (Physical power)
+                    "W": "integer",      // Willpower (Mental resilience)
+                    "L": "integer",      // Logic (Reasoning and problem-solving ability)
+                    "I": "integer",      // Intuition (Awareness and instinct)
+                    "C": "integer",      // Charisma (Social influence and appeal)
+                    "ESS": "integer",    // Essence (Life force or spirit)
+                    "DR": "integer",     // Defense Rating (Defensive capability)
+                    "I/ID": "string",    // Initiative rank/Initiative Dice (e.g., "4/1D6" means Initiative rank 4, 1 six-sided die)
+                    "AC": "string",      // Action allotment (e.g., "1A/2I" means 1 Major Action, 2 Minor Actions)
+                    "CM": "integer",     // Condition Monitor (Number of health boxes)
+                    "Move": "string"     // Movement (e.g., "10m/15m/+1", where 10m is walking distance, 15m is running distance, +1 is sprint increase)
+                },
+                "skills": {
+                    "Skill Name": {
+                        "base": "integer",                       // Base skill level
+                        "specializations": {
+                            "Specialization Name": "integer"    // Specialization skill level
+                        }
+                    }
+                },
+                "gear": {
+                    "Item Name": {
+                        "Description or Details": "string"       // Details of the item
+                    }
+                },
+                "weapons": [
+                    {
+                        "name": "string",                      // Name of the weapon
+                        "type": "string",                      // Type of the weapon (e.g., Melee, Ranged)
+                        "DV": "string",                        // Damage Value (e.g., "3S" means 3 stun damage)
+                        "Attack Ratings": "string"             // Attack ratings for different ranges or situations
+                    }
+                ],
+                "spells": [
+                    "string"                                    // List of spells the mob can cast
+                ],
+                "abilities": [
+                    "string"                                    // List of special abilities the mob has
+                ],
+                "description": "string"                         // A brief description of the mob
+            }
+        ]
+    }
+}

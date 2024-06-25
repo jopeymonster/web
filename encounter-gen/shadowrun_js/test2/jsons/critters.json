@@ -1,0 +1,642 @@
+{
+    "critters": {
+        "mundane": [
+            {
+                "name": "Large Dog",
+                "type": "large_dog",
+                "PR": 1,
+                "affiliations": [],
+                "attributes": {
+                    "B": 3,
+                    "A": 2,
+                    "R": 3,
+                    "S": 2,
+                    "W": 2,
+                    "L": 2,
+                    "I": 3,
+                    "C": 3,
+                    "ESS": 6,
+                    "DR": 4,
+                    "I/ID": "6/1",
+                    "AC": "A1, I2",
+                    "CM": 10,
+                    "Move": "10m/15m/+1"
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 5,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Perception (Smell)": {
+                        "base": 5,
+                        "specializations": {
+                            "Smell": 2
+                        }
+                    }
+                },
+                "powers": {
+                    "Armor 1": {
+                        "Description or Details": "Grants 1 point of armor"
+                    },
+                    "Enhanced Senses (Hearing, Smell)": {
+                        "Description or Details": "Improved hearing and smell senses"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws oand teeth used for attacks"
+                    }
+                },
+                "attack": [
+                    "critter.dogattack"
+                ],
+                "abilities": [],
+                "description": "Not a wolf, but a large dog, and definitely not the good boy kind."
+            },
+            {
+                "name": "Large Cat",
+                "type": "large_cat",
+                "PR": 1,
+                "affiliations": [],
+                "attributes": {
+                    "B": 3,
+                    "A": 2,
+                    "R": 4,
+                    "S": 4,
+                    "W": 1,
+                    "L": 1,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 6
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 7,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 4,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Perception (Visual)": {
+                        "base": 5,
+                        "specializations": {
+                            "Visual": 2
+                        }
+                    },
+                    "Stealth": {
+                        "base": 6,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 2": {
+                        "Description or Details": "Grants 2 points of armor"
+                    },
+                    "Enhanced Senses (Low-light vision, Smell)": {
+                        "Description or Details": "Improved low-light vision and smell senses"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or teeth used for attacks"
+                    }
+                },
+                "attack": [
+                    "critter.catattack"
+                ],
+                "abilities": [],
+                "description": "A large and powerful feline predator closer to a lion or tiger than Garfield."
+            },
+            {
+                "name": "Horse",
+                "type": "horse",
+                "PR": 0,
+                "affiliations": [],
+                "attributes": {
+                    "B": 8,
+                    "A": 2,
+                    "R": 3,
+                    "S": 7,
+                    "W": 2,
+                    "L": 2,
+                    "I": 4,
+                    "C": 2,
+                    "ESS": 6
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 7,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 1,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 3,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 1": {
+                        "Description or Details": "Grants 1 point of armor"
+                    },
+                    "Enhanced Senses (Hearing)": {
+                        "Description or Details": "Improved hearing sense"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Hooves or teeth used for attacks"
+                    }
+                },
+                "attack": [
+                    "critter.horseattack"
+                ],
+                "abilities": [],
+                "description": "A strong and fast herbivore often used for transportation, or a game show host."
+            },
+            {
+                "name": "Shark",
+                "type": "shark",
+                "PR": 2,
+                "affiliations": [],
+                "attributes": {
+                    "B": 5,
+                    "A": 3,
+                    "R": 5,
+                    "S": 5,
+                    "W": 2,
+                    "L": 1,
+                    "I": 4,
+                    "C": 1,
+                    "ESS": 6
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 6,
+                        "specializations": {
+                            "Swimming": 2
+                        }
+                    },
+                    "Close Combat": {
+                        "base": 8,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 5,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Perception": {
+                        "base": 6,
+                        "specializations": {
+                            "Smell": 2
+                        }
+                    }
+                },
+                "powers": {
+                    "Enhanced Senses (Smell)": {
+                        "Description or Details": "Improved smell sense"
+                    },
+                    "Hardened Armor 6": {
+                        "Description or Details": "Provides 6 points of armor"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Teeth used for attacks"
+                    }
+                },
+                "attack": [
+                    "critter.sharkattack"
+                ],
+                "abilities": [],
+                "description": "A large and predatory fish with powerful jaws and a keen sense of smell."
+            },
+            {
+                "name": "Wolf",
+                "type": "wolf",
+                "PR": 2,
+                "affiliations": [],
+                "attributes": {
+                    "B": 4,
+                    "A": 3,
+                    "R": 5,
+                    "S": 4,
+                    "W": 2,
+                    "L": 2,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 6
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 5,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 2,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Perception": {
+                        "base": 5,
+                        "specializations": {
+                            "Smell": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Stealth": {
+                        "base": 5,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 2": {
+                        "Description or Details": "Grants 2 points of armor"
+                    },
+                    "Enhanced Senses (Hearing, Smell)": {
+                        "Description or Details": "Improved hearing and smell senses"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or teeth used for attacks"
+                    }
+                },
+                "attack": [
+                    "critter.sharkattack"
+                ],
+                "abilities": [],
+                "description": "A pack-hunting predator with keen senses and natural weapons."
+            }
+        ],
+        "awakened": [
+            {
+                "name": "Barghest",
+                "type": "metaspecies (dog, English mastiff)",
+                "PR": 5,
+                "affiliations": [],
+                "attributes": {
+                    "B": 7,
+                    "A": 4,
+                    "R": 5,
+                    "S": 5,
+                    "W": 3,
+                    "L": 2,
+                    "I": 5,
+                    "C": 5,
+                    "ESS": 5
+                },
+                "skills": {
+                    "Astral": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Athletics": {
+                        "base": 5,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 8,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 5,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 6,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 4": {
+                        "Description or Details": "Grants 4 points of armor"
+                    },
+                    "Dual Natured": {
+                        "Description or Details": "Has a physical and astral form"
+                    },
+                    "Enhanced Senses (Hearing, Smell, Sonar)": {
+                        "Description or Details": "Improved hearing, smell, and sonar senses"
+                    },
+                    "Fear": {
+                        "Description or Details": "Causes fear in targets"
+                    },
+                    "Immunity (Barghest Howls)": {
+                        "Description or Details": "Immune to the effects of its own howls"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or teeth used for attacks"
+                    },
+                    "Paralyzing Howl": {
+                        "Description or Details": "Howl that can paralyze targets"
+                    }
+                },
+                "attack": [
+                    "critter.meta_dog"
+                ],
+                "abilities": [],
+                "description": "The Barghest is a large, canine-like creature with enhanced senses and the ability to travel between the physical and astral planes. It can induce fear and paralysis in its enemies and is immune to the effects of its own howls."
+            },
+            {
+                "name": "Basilisk",
+                "type": "metaspecies (komodo dragon)",
+                "PR": 5,
+                "affiliations": [],
+                "attributes": {
+                    "B": 6,
+                    "A": 2,
+                    "R": 3,
+                    "S": 6,
+                    "W": 4,
+                    "L": 1,
+                    "I": 3,
+                    "C": 1,
+                    "ESS": 4
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 5,
+                        "specializations": {
+                            "Swimming": 2
+                        }
+                    },
+                    "Close Combat": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Stealth": {
+                        "base": 3,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 7": {
+                        "Description or Details": "Grants 7 points of armor"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or teeth used for attacks"
+                    },
+                    "Petrification": {
+                        "Description or Details": "Can turn targets to stone with its gaze"
+                    }
+                },
+                "weaknesses": {
+                    "Vulnerability(Own Gaze)": {
+                        "Description or Details": "Vulnerable to being turned to stone by its own gaze"
+                    }
+                },
+                "attack": [
+                    "critter.wolfattack"
+                ],
+                "abilities": [],
+                "description": "The Basilisk is a large, reptilian creature with a powerful bite and claws. Its most dangerous ability is its petrifying gaze, which can turn those who look directly at it to stone. However, the Basilisk is also vulnerable to its own gaze."
+            },
+            {
+                "name": "Cerberus Hound",
+                "type": "metaspecies (dog, hound)",
+                "PR": 5,
+                "affiliations": [],
+                "attributes": {
+                    "B": 6,
+                    "A": 4,
+                    "R": 5,
+                    "S": 6,
+                    "W": 4,
+                    "L": 2,
+                    "I": 6,
+                    "C": 3,
+                    "ESS": 5
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 6,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 9,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 5,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 8,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 6,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 6": {
+                        "Description or Details": "Grants 6 points of armor"
+                    },
+                    "Built Tough 4": {
+                        "Description or Details": "Increases resilience"
+                    },
+                    "Concealment (Self)": {
+                        "Description or Details": "Can become invisible"
+                    },
+                    "Corrosive Spit": {
+                        "Description or Details": "Spits a corrosive substance"
+                    },
+                    "Enhanced Senses (Hearing, Low-Light Vision, Smell, Thermographic Vision)": {
+                        "Description or Details": "Improved hearing, low-light vision, smell, and thermographic vision"
+                    },
+                    "Fear": {
+                        "Description or Details": "Causes fear in targets"
+                    },
+                    "Immunity (Cold, Fire)": {
+                        "Description or Details": "Immune to cold and fire damage"
+                    },
+                    "Movement (Self)": {
+                        "Description or Details": "Can teleport itself"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or teeth used for attacks"
+                    },
+                    "Search": {
+                        "Description or Details": "Skilled at finding things"
+                    }
+                },
+                "attack": [
+                    {
+                        "name": "Claws/Bite",
+                        "type": "Melee",
+                        "DV": "4P",
+                        "Attack Ratings": "11/---/---/---/---"
+                    }
+                ],
+                "abilities": [],
+                "description": "A three-headed hound with a fearsome array of abilities, making it a fierce hunter and formidable guardian."
+            },
+            {
+                "name": "Cockatrice",
+                "type": "metaspecies (chicken)",
+                "PR": 4,
+                "affiliations": [],
+                "attributes": {
+                    "B": 3,
+                    "A": 4,
+                    "R": 3,
+                    "S": 3,
+                    "W": 3,
+                    "L": 1,
+                    "I": 2,
+                    "C": 1,
+                    "ESS": 5
+                },
+                "skills": {
+                    "Athletics": {
+                        "base": 7,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 7,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 3,
+                        "specializations": {}
+                    },
+                    "Stealth": {
+                        "base": 5,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 1": {
+                        "Description or Details": "Grants 1 point of armor"
+                    },
+                    "Immunity (own touch)": {
+                        "Description or Details": "Immune to the paralyzing effects of its own touch"
+                    },
+                    "Natural Weapon": {
+                        "Description or Details": "Claws or beak used for attacks"
+                    },
+                    "Paralyzing Touch (Tail)": {
+                        "Description or Details": "Tail attack that can paralyze targets"
+                    }
+                },
+                "attack": ["critter.dogattack"],
+                "abilities": [],
+                "description": "A fearsome predator with a paralyzing tail, the Cockatrice hunts in packs, leaping and striking to immobilize its prey before finishing them off."
+            },
+            {
+                "name": "Hell Hound",
+                "type": "metaspecies (dog, German shepherd)",
+                "PR": 6,
+                "affiliations": [],
+                "attributes": {
+                    "B": 6,
+                    "A": 4,
+                    "R": 5,
+                    "S": 4,
+                    "W": 3,
+                    "L": 2,
+                    "I": 4,
+                    "C": 3,
+                    "ESS": 5
+                },
+                "skills": {
+                    "Astral": {
+                        "base": 5,
+                        "specializations": {}
+                    },
+                    "Athletics": {
+                        "base": 7,
+                        "specializations": {}
+                    },
+                    "Close Combat": {
+                        "base": 4,
+                        "specializations": {}
+                    },
+                    "Influence (Intimidation)": {
+                        "base": 4,
+                        "specializations": {
+                            "Intimidation": 2
+                        }
+                    },
+                    "Outdoors": {
+                        "base": 5,
+                        "specializations": {}
+                    },
+                    "Perception": {
+                        "base": 3,
+                        "specializations": {}
+                    },
+                    "Stealth": {
+                        "base": 5,
+                        "specializations": {}
+                    }
+                },
+                "powers": {
+                    "Armor 4": {
+                        "Description or Details": "Grants 4 points of armor"
+                    },
+                    "Dual Natured": {
+                        "Description or Details": "Has a physical and astral form"
+                    },
+                    "Elemental Attack (Fire)": {
+                        "Description or Details": "Can breathe fire"
+                    },
+                    "Enhanced Senses (Hearing, Low-light Vision, Smell)": {
+                        "Description or Details": "Improved hearing, low-light vision, and smell"
+                    },
+                    "Fear": {
+                        "Description or Details": "Causes fear in targets"
+                    },
+                    "Immunity (Fire)": {
+                        "Description or Details": "Immune to fire damage"
+                    }
+                },
+                "attack": ["critter.wolfattack"],
+                "abilities": [],
+                "description": "A fearsome canine wreathed in flames, the Hell Hound is a pack hunter that strikes fear into the hearts of its prey. It can breathe fire and travel between the physical and astral realms, making it a versatile and dangerous foe."
+            }
+        ],
+        "dracoforms": [],
+        "uniques": []
+    }
+}

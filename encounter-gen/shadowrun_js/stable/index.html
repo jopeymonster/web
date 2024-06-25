@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Encounter Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>SR Encounter Generator</h1>
+    <div class="frame">
+        <div class="container">
+            <h2>MOB Generator</h2>
+            <div class="input-section">
+                <div class="enemy-count">
+                    <label for="enemyCount">Number of Enemies (1-5):</label>
+                    <input type="number" id="enemyCount" name="enemyCount" min="1" max="5">
+                </div>
+                <br />
+                <div class="pr-selection">
+                    <label for="prRangeMin">Professional Rating (PR) Min:</label>
+                    <input type="range" id="prRangeMin" min="0" max="10" step="1" value="0">
+                    <span id="prRangeMinValue">0</span>
+                    <br />
+                    <label for="prRangeMax">Professional Rating (PR) Max:</label>
+                    <input type="range" id="prRangeMax" min="0" max="10" step="1" value="10">
+                    <span id="prRangeMaxValue">10</span>
+                </div>
+                <br />
+                <div class="affiliation-selection">
+                    <label for="affiliationCategory">Affiliation Category:</label>
+                    <select id="affiliationCategory">
+                        <option value="all">All</option>
+                        <option value="none">None</option>
+                    </select>
+                    <label for="affiliationDetail">Affiliation Detail:</label>
+                    <select id="affiliationDetail">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+                <br />
+                <div class="category-selection">
+                    <label>MOB Categories:</label>
+                    <div id="mobCategories"></div>
+                    <label>Critter Categories:</label>
+                    <div id="critterCategories"></div>
+                </div>
+                <br />
+                <button type="button" id="generateButton">Generate</button>
+                <button type="button" id="clearButton">Clear</button>
+            </div>
+
+            <div id="output" class="output-section"></div>
+        </div>
+    </div>
+    <script src="js/mob_details1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+body{
+  font-size: 125%;
+  background-color: #f9f7f7;
+  margin: 1% 15% 5%;
+}
+table{
+  justify-content: center;
+  padding: 1%;
+}
+form{
+  margin: 5% 10%;
+  background-color: #dbe2ef;
+}
