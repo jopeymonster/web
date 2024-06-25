@@ -1,7 +1,7 @@
 #gitignore for html projects
 
 # personal
-annie*
+personal*
 
 # Node.js
 node_modules/
